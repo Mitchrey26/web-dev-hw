@@ -1,0 +1,24 @@
+How is the Web different than the Internet?
+The Web connects information, while the internet connects people. The Web is accessed via the internet, the internet is accessed
+via people.
+
+How does the internet Work?
+The Internet often seems like this object that has no physical aspect to it, and for most people it is this tool that 
+we can't phyiscally grasp. However, when you look at how the Internet really works you see that there are wires conencted 
+throughout the earth connecting country to country, contienent to conteint. There is an Under sea cable Industry that span hundreds 
+of thousand of miles to gives us our internet, and connection. These cables contain hair fibers, about the size of a peice of hair, 
+When light shines through these fiber it starts to transmit our internet speed about 10 gigabits persecond. Each cable has around 8 
+fibers, and these cables go through amplifers to multiply the signal. Our Computurs and phones are clients to the internet
+connected ndirecty to it through an internet service provider(ISP), and when you are sending information to someone through the internet 
+it goes through your ISP and to the wire until it reaches its final destanation. While traveling through these wires the item will
+be brocken into smaller packages and won't be email won't be recieved or the tweet won't be posted until all these packages have reached
+the final destantion. 
+
+What is a Directory and its relationship to Files?
+A Directory is another word for Folder. We make Folers, or directories, for each group of our files whether it be our script,
+images, text, CSS, Index.Html, etc... We want to make sure that our diercotires are ordered in a clear and concise way where we
+have our root directory(.) followed by sub folders. we have to maintain the relationship of hierachy throughout our direcories for 
+example My-site/ will be the parent to content/ your content folder will hold items such as images/ or text/ and within those 
+direcotries you will find your files such as logo.png or apples.txt
+
+Why is using a VCS Benificial?
