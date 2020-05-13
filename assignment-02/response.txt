@@ -1,9 +1,27 @@
 Mitch Reynolds
 
 1. Briefly describe one way how data travels on the internet.
+One way data travels on the internet is through light. Light is really fast,
+there is no signal loss over distance, but it is also very expensive, and hard
+to work with. Light is shined through wires that are spanned over great
+distances. In these cables are fiber optic cables and manufactured to reflect
+light. The light bounces up down reflecting from side to side until it is
+received on the other end. Multiple angles of light are shined through these
+cables so more bits can be transferred.
 
 2. What is the relationship between an IP address and the DNS?
+The IP address is the name of a physical device such as a phone or a laptop.
+The DNS will take a website and find the corresponding IP address to that
+website, and that is what gives you access to the correct website.
 
 3. What is a cookie?
+Cookies are a way for the website to recognize a frequent user, and they keep
+track of your preferences on the website.
 
 4.List the the three basic parts of a URL.
+The three main parts of a URL are the protocol, the domain name, and the path.
+The Protocol is the HTTP:// and is states where the files live, most broad part
+of the URL. The Domain name is like the state or city of your URL and gives you
+direction to your site and all of its content. The path is like your house, and
+a guided tour of each room it shows you how you ended up where you are on the
+website, and usually ends with a file or page.
