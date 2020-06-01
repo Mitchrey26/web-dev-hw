@@ -1,0 +1,8 @@
+# Mitch Reynolds
+## Assignment 07
+1. Briefly describe the difference between divs, classes, ids, and spans
+  - The id attribute is given to an element within a Div, and it a unique identifier to that specific element. A class attribute is similar to the id attribute, but it groups similar types of elements together by using the same name value. A div element  allows the coders a block-level element to group other elements together. Divs can be singular or it can have other divs within one. It allows good structural clarity within your code. Spans are very similar to divs, but they can only exist within a a div element, not outside of one.  
+2. What is "alt text," and why do we use it?
+  - it is required for images, and you should describe the image within the quotes. this allows for the visually impaired to understand the image.
+3. Free Response: Summarize your work cycle for this assignment.
+  - This Week I first went through all the material online. Then I I watched the work through video to get the frame work of my assignment laid out.I worked within 1 div element at a time making sure that I made it through each section of my website without making a mistake. I have been stuck on uploading the image for my album cover, and the preload image for my media arts video in the copy write I section. Than I found out the preload function does not work on chrome, and my image is only showing up when I use safari, but my image for the album cover does not work. The code looked correct to my knowledge, and I became stumped, so I emailed professor Evans, and realized that I was missing the equal sign on src="". Once I got all my media in the website I created breaks and styled the website to aesthetically pleasing 
