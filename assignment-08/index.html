@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is my assignment 8 webpage HTML webiste">
+    <meta name="author" content="Mitch Reynolds">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 8</title>
+   <style>
+    body {
+    background-image:
+    url("./images/background.jpg");
+  }
+  .behind-text{
+    background-color: lightgrey;
+  }
+  .padded{
+    background-color: lightgrey;
+    padding: 5px;
+  }
+  .width{
+    width: 250px;
+  }
+  .wide{
+    width: 300px;
+  }
+  .half-size{
+    width: 50%;
+    margin: auto
+  }
+  .container {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+  }
+   nav {
+     text-align: center;
+  }
+  a {
+    background-color: white;
+    color: teal;
+    padding: 7px;
+  }
+  img {
+    float: right;
+  }
+
+  </style>
+    </head>
+
+  <body>
+<nav>
+    <a href="./about.html">About Page</a>
+    <a href="./index.html">Home Page</a>
+    <a href="./contact.html">Contact Page</a>
+    </nav>
+    <br>
+
+  <div id="main" class="behind-text half-size">
+    <h1>Simple Manual Star Tracker for Astrophotography</h1>
+    <p> After this project you will be taking long exposures of the stars like a pro!<p>
+    </div>
+    <img src="./images/finished.jpg" alt="Finished Camera Mount" width="600"
+    height="400"/>
+  <div id="material" class="behind-text width">
+  <h1>Materials Needed</h1>
+  <ul>
+    <li>camera ball mount</li>
+    <li>four hinges</li>
+      <li>four (or fewer, if using tripod) 1/4"-20 carriage bolts, about 4.5" long</li>
+      <li>two 1/4"-20 T-nuts</li>
+      <li>wood, screws and other miscellanea</li>
+      <li>camera (DSLR or mirrorless; I used a Lumix G1)</li>
+      <li><b>optional (for smoother operation):</b> chunk of Teflon</li>
+      <li><b>optional (for aiming camera):</b> green laser, 3D printer</li>
+      <li><b>optional (for additional corrector):</b> CNC router, laser cutter, 3D printer or a jigsaw and a steady hand</li>
+      <li><b>optional (to avoid making a wooden tripod):</b> very steady camera tripod and another 1/4"-20 T-nut</li>
+    </ul>
+  </div>
+  <img src="./images/step-1.jpg" alt="Step 1 of our Camera mount project" width="600"
+  height="400"/>
+  <div id="steps" class="behind-text">
+  <h1>Step 1: Background</h1>
+  <p>The basic idea is simple. You have two pieces of wood connected by a hinge,
+     with a bolt going through a T-nut in the bottom piece of wood, the bolt head
+     pressing on the top piece, and a camera on the top piece. The hinge points at
+     the North Star (or the Southern Celestial Pole), and as you turn the bolt,
+     the camera swivels to follow the stars.<br><br>
+
+    My design uses a 1/4"-20 carriage bolt. If the bolt is 292mm from the hinge,
+    one turn per minute is what one needs to follow the stars. One can then have
+    a rotation wheel attached to the knob with second markings printed on it,
+    and then rotate it by hand in sync with a stopwatch. Being within 5-10 seconds
+    of what the stopwatch is showing is generally good enough at lower magnifications,
+    and this is quite easy to do by hand--one can either rotate continuously,
+    or once every 5-10 seconds. A technical difficulty is "tangent error": as
+    the bolt extends, the angle that the hinge swivels per rotation of the bolt
+    decreases. One solution is to use a design with a circularly bent bolt
+   (usually, a threaded rod).<br><br>
+
+   But there is a simple way to get error compensation by using a carriage bolt
+   with a rounded head in the tracker. The rounded head significantly reduces
+   error. The attached graph shows the error in seconds of arc over time: the
+   upper line is an uncorrected straight-bolt mount and the lower line is my
+   mount with a rounded head carriage bolt. For 60-90 second exposures the
+   error with the rounded head is very small. For maximal correction, after a
+   few minutes of running you will rewind the tracker.<br><br>
+
+   You can also attach a carefully cut or 3D-printed corrector to all but eliminate
+   tangent error. There is an optional step at the end for this.</p>
+   </div>
+   <img src="./images/step-2.jpg" alt="Step 2 of our Camera mount project" width="300"
+   height="200"/>
+  <div id="step 2" class="behind-text width">
+    <h1>Step 2: Sand Bolt Head</h1>
+    <p>Carriage bolt heads have embossed text on them. File it off and sand as
+      smooth as you can. I did this by chucking it into a drill press and using
+      a file and sandpaper.</p>
+    </div>
+    <img src="./images/step-3.jpg" alt="Step 3 of our Camera mount project" width="500"
+    height="300"/>
+<div id="step 3" class="behind-text">
+  <h1>Step 3: Main Assembly</h1>
+  <p>Cut two 3/4" thick boards into a long isosceles triangular shape as in the
+    photos; the short end is where the hinges will go. The shape is not crucial.
+    The only crucial dimension is that height of the triangle must be sufficient
+    that the bolt hole 292mm from the hinges be some distance from the end to
+    allow for room to mount a camera.<br><br>
+
+    Attach the boards with hinges.<br><br>
+
+    Draw a line at right angle to the hinges and drill a hole 292mm from the
+    center of rotation of the hinge. I recommend that the hole be slightly
+    smaller than the 1/4" bolt to reduce wobbling.<br><br>
+
+    Hammer in the T-nut from the inside (i.e., when you close the hinges,
+    the T-nut flanges will be between the boards), so that the bolt will go as
+    shown in the last photo above.</p>
+    </div>
+    <img src="./images/step-4.jpg" alt="Step 4 of our Camera mount project" width="350"
+    height="200"/>
+  <div id="step 4" class="behind-text">
+    <h1>Step 4: Bolt Wobble Reducer</h1>
+    <p>If you put the bolt in the T-nut, you will find that it wobbles, though the wood below the T-nut may damp the wobbling a little. What worked really well for me was to attach a piece of 1/4" Teflon that I got from another amateur astronomer friend, and drill a very tight hole for the bolt through it, and put it on the bottom of the board. A piece of wood or plastic with some lubricant might work, too.
+
+      To make the hole fit nicely to the bolt, I rotated the bolt through the hole a number of times, with both a wrench (on the square section of the bolt) and chucking the bolt into a drill. Be careful not to damage bolt threads (on reflection, using a spare bolt is smart).
+
+      Then I attached the wobble-reducer with two screws.</p>
+      </div>
+      <img src="./images/step-5.jpg" alt="Step 5 of our Camera mount project" width="300"
+      height="220"/>
+  <div id="step 5" class="behind-text width">
+      <h1>Step 5: Camera Mount</h1>
+       <p>I bought a cheap camera ball mount somewhere online and mounted it on
+         the top of the top board with a piece of dowel to raise the camera a
+         little more to allow for even more freedom of movement.</p>
+         </div>
+<img src="./images/step-6.jpg" alt="Step 6 of our Camera mount project" width="500"
+         height="330"/>
+  <div id="step 6" class="behind-text wide">
+      <h1>Step 6: Knob</h1>
+        <p>Screw the carriage bolt through its T-nut. You will now want to
+          attach a knob at the bottom. You will be manually turning this knob
+          while photographing. When I make holes with a hole-saw, I tend to save
+          the circles, so I initially attached a 2.4" circle to the end of the
+          carriage bolt. That turned out to be too small for comfortably and
+          smoothly turning, so I eventually switched to a 5" disc, which I
+          attached with nuts and washers. The holes in it are for ease of turning
+          and/or decorative. I also printed out numbers from 0 to 55, every 5,
+          to put clockwise along the top edge of it for ease of timing.</p>
+          </div>
+  <div id="step 7" class="behind-text">
+      <h1>Step 7: Optional: Mount for Camera Tripod</h1>
+      <p>You will need a very heavy duty tripod as the whole assembly will need
+         to be angled at an angle equal to your latitude, which will put eccentric
+         forces on the tripod.<br><br>
+
+        The board with the T-nut will be on the bottom. On the upper side of it
+        countersink a hole (with a Forstner bit) for a T-nut whose threaded
+        sleeve will come close enough to the bottom for the tripod bolt to hold
+        it. I haven't actually tried this as I don't have a good tripod, and the
+        exact location on the board that makes for good balance is something
+        you'll want to figure out.<br><br>
+
+        <b>If you did this, you can skip the next two steps.</b></p>
+</div>
+<img src="./images/step-3.jpg" alt="Step 8 of our Camera mount project" width="600"
+height="400"/>
+<div id="step 8" class="behind-text wide">
+  <h1>Step 8: Wooden Tripod Mount</h1>
+  <p>The barndoor mount will have to be mounted at an angle equal to your latitude.
+     If you plan to travel, you will want to make it adjustable. And even if you
+     don't want to travel, you'll want some adjustment for unlevel ground.<br><br>
+
+     I made a very heavy duty tripod out of some 2x4s with a 3/4" board on top. It's
+     short, roughly made, but super solid and heavy-duty. The photos pretty much
+     explain it all: Cut the ends of the three 2x4s that go along the bottom at
+     30 degrees. Then for the up-and-down 2x4s, do parallel angled cuts at the
+     top and bottom at the same angle so they are flat on the ground and the board
+     sits on the top. I attached them all with screws and white Gorilla Glue.</p>
+     </div>
+     <img src="./images/step-9.jpg" alt="Step 9 of our Camera mount project" width="500"
+     height="300"/>
+<div id="step 9" class="behind-text">
+     <h1>Step 9: Wooden Tripod Head</h1>
+     <p>I took a 4"x7"x3/4" board and drilled a 1/4" hole through the middle and
+       then another 1/4" hole nearer the edge (about 1.4" away from the central
+       hole). I then attached this board to the underside of the barndoor mount
+       with two more hinges. These hinges are at right angles to the barndoor mount
+       hinges, but you don't have to obsess about any of the measurements here
+       as it will all be adjustable.<br><br>
+
+       I put a carriage bolt sticking up through the middle of the platform on the top
+       of the tripod. On top of that I put a 7 inch piece of 2x4 with a 1/4"
+       hole drilled through the center. (If you want smoother rotation, put an
+       old CD or DVD between the 2x4 and the top platform on the tripod.) And
+       then on top of that I put the 4x7x3/4 board, and attached it all with a
+       plastic wingnut for easily adjusting tension, and since when I was
+       making the project, I had a lot of spare triwing nuts. You can just an
+       ordinary nut if you like, or if you have a 3D printer, you can print one
+       of my triwing nuts.<br><br>
+
+       Continue the off-center hole in the 4x7x3/4 board through the 2x4. Then
+       remove the top assembly, and make the hole in the 2x4 wide enough that a
+       1/4" bolt nicely slides through it. Finally, put a T-nut in the hole in
+       4x7x3/4 board, on the top side. And then put another carriage bolt through
+       that T-nut. This carriage bolt will be used for adjusting the angle to
+       match your latitude.</p>
+        </div>
+        <img src="./images/step-10.jpg" alt="Step 10 of our Camera mount project" width="500"
+        height="300"/>
+<div id="step 10" class="behind-text">
+      <h1>Step 10: Optional: Laser Mounts for Camera and Polar Alignment</h1>
+      <p>Perhaps the easiest way to aim the camera for astrophotography is to
+        put a green laser in a hotshoe mount. I made a 3D-printed mount. Make
+        sure the laser is turned off or its beam will spoil the photo (see above!).
+        Also, make sure you don't look into the laser and that you don't
+        accidentally point it at another person or an airplane.<br><br>
+
+        Note that my 3D-printed mount allows one to rotate the laser to depress
+        the laser button permanently. <b>BE VERY CAREFUL WITH EYES AND AIRPLANES
+        IF YOU DO THIS, AND MAKE SURE YOUR LOCAL LAWS ALLOW IT.</b><br><br>
+
+        My 3D-printed mount also has a variant that lets you snap the laser on
+        parallel to the hinges of the mount for easy pointing at Polaris
+        (or the South Celestial Pole).<br><br>
+
+        As another safety measure, I recommend putting an infrared block filter
+        on the green laser, unless you know for sure that there is one. Green
+        lasers emit a lot more light in infrared than in green, which is quite
+        dangerous for eyes, and cheap pointers are missing the infrared block
+        filter. You can buy a filter online and attach it with duct tape or with
+        my little 3D-printable laser pointer filter holder.</p>
+        </div>
+<img src="./images/step-11.jpg" alt="Step 11 of our Camera mount project" width="500"
+        height="300"/>
+<div id="step 11" class="behind-text">
+  <h1>Step 11: Photography!</h1>
+  <p>Turn the knob to lower the bolt as much as possible. Mount the camera to the
+  ball mount. Ideally, use a remote cable for the camera.<br><br>
+
+    Sight Polaris along the barndoor mount hinges (or sight the south celestial
+    pole if you're in the southern hemisphere). You can look along the hinges or
+    you can put a laser right up against them. This will ensure that the camera
+    will rotate along the correct axis.<br><br>
+
+    Get a stopwatch or a stopwatch app. Not to destroy your night vision, ideally
+    get one with a red display, like my open source Giant Stopwatch Android app
+    (which you can switch to red mode, and which doesn't have ads that will
+    destroy night vision), which also has a handy countdown before it starts.<br><br>
+
+    Focus the camera manually on something distant (e.g., a bright star or planet).
+    Prepare the camera for a timed exposure for 30 to 60 seconds, pointing at some
+    interesting place in the sky. Set the knob on the barndoor mount to zero
+    (e.g., aligning the zero with the side sticking out furthest from the mount--you
+    don't need to be very precise).<br><br>
+
+    Start the stopwatch (Giant Stopwatch has a delayed-start feature which makes
+    this easier) simultaneously with the exposure, and then manually turn the knob,
+    using the numbers on the knob to stay in sync with the stopwatch.
+    Staying within five seconds is definitely good enough, and is actually not
+    that hard.<br><br>
+
+    Taking multiple 30-60 second exposures and stacking is the best way to
+    proceed, but photo processing is beyond the scope of this Instructable.
+    Here and here is some information on stacking.</p>
+    </div>
+    </body>
+</html>

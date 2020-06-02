@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is my assignment 8 webpage HTML webiste">
+    <meta name="author" content="Mitch Reynolds">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Assignment 8</title>
+    <style>
+     body {
+     background-image:
+     url("./images/background.jpg");
+   }
+   .behind-text{
+     background-color: lightgrey;
+   }
+   .padded{
+     background-color: lightgrey;
+     padding: 5px;
+   }
+   .width{
+     width: 250px;
+   }
+   .half-size{
+     width: 63%;
+     margin: auto;
+   }
+   .container {
+     background-color: lightgrey;
+     width: 600px;
+     margin: auto;
+     padding: 20px;
+     border: 1px solid black;
+   }
+    nav {
+      text-align: center;
+   }
+   a {
+     background-color: white;
+     color: teal;
+     padding: 7px;
+   }
+   table, td {border: 1px solid black}
+   </style>
+    </head>
+  <body>
+    <nav>
+        <a href="./about.html">About Page</a>
+        <a href="./index.html">Home Page</a>
+        <a href="./contact.html">Contact Page</a>
+        <br><br><br>
+        </nav>
+<div id="subscribe" class="behind-text half-size">
+  <h1>Hours I check My E-Mail</h1>
+  <table>
+    <tr>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Firday</th>
+      <th>Saturday</th>
+      <th>Sunday</th>
+    <tr>
+      <td>8 am - 5 pm</td>
+      <td>8 am - 5 pm</td>
+      <td>8 am - 5 pm</td>
+      <td>8 am - 5 pm</td>
+      <td>12 pm - 5 pm</td>
+      <td>10 am - 12 pm</td>
+      <td>Offline</td>
+      </tr>
+  </table>
+  </div>
+  <br><br>
+<div id="subscribe" class="container">
+        <form action="https://example.com/registration.php"
+        method="post">
+          Leave your email if you want to subscribe for more projects!
+          <input type="text" name="email" maxlength="20"
+          placeholder="example@gmail.com" autofocus />
+          <input type="submit" name="subscribe" value="Subscribe" />
+          <br><br>
+
+          Let us know if you have any questions or want to get involved!
+          <br>
+          <textarea cols="65" rows="5"></textarea>
+          <br>
+            <input type="submit" name="subimt" value="Submit" />
+<br><br>
+            <p>Upload your long exposure photos in JPG format:</p>
+     <input type="file" name="photo" />
+     <br />
+     <input type="submit" value="Upload" />
+        </form>
+    </body>
+
+</html>
