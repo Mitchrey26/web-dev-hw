@@ -1,0 +1,103 @@
+/* Page-Wide */
+body{
+  background-color: rgb(5, 88, 55);
+  color: white;
+  padding: 5px;
+}
+
+
+/* Paragraph Content */
+.Author{
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  width: 50%;
+  left: 100%;
+}
+.text{
+  background-color: rgb(214, 214, 165);
+  color: rgb(226, 68, 43);
+  padding: 5px;
+  line-height: 2em;
+
+}
+.line-vertical {
+   width: 10px;
+   height: 300%;
+   background-color: white;
+   position: absolute;
+   top: 550;
+   left: 450px;
+   z-index: 7;
+}
+.text-image{
+    position: absolute;
+    top: 550px;
+    right: 100px;
+    z-index: 1;
+  }
+.real-image{
+  position: absolute;
+  top: 950px;
+  right: 100px;
+  z-index: 1;
+}
+.pair-image{
+  position: absolute;
+  top: 1450px;
+  right: 60px;
+  z-index: 1;
+}
+
+
+h1{
+  font-family: 'Metal Mania', cursive;
+  font-size: 40pt;
+  background-color: rgb(199, 47, 47);
+  padding: 30px;
+  width: 75%;
+}
+h2{
+  font-family: 'Metal Mania', cursive;
+  font-size: 30pt;
+  background-color: rgb(199, 47, 47);
+  padding: 30px;
+  width: 75%;
+}
+
+p{
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  font-size: 120%;
+}
+p:first-letter{
+  font-family: 'Meddon', cursive;
+  font-size: 1em;
+  font-weight: 6 00;
+}
+
+hr{
+  width: 100%;
+  height: 10px;
+  background-color: white;
+  position: absolute;
+  top: 340px;
+  left: 0px;
+  z-index: 7;
+
+}
+
+.red-box{
+  position: absolute;
+  top: 49px;
+  right: 50px;
+  z-index: 100;
+}
+/* "Read More! Link" */
+a{
+  background-color: rgb(127, 210, 245);
+  padding: 5px;
+  color:rgb(90, 44, 153);
+
+
+}
+a:hover {
+  color: white;
+}
