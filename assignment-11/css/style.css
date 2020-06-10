@@ -1,0 +1,111 @@
+/*----------------
+ PAGE WIDE STYLE
+------------------*/
+body{
+margin: 0;
+
+font-size: 1.25em;
+}
+
+
+
+
+
+
+
+
+/*----------------
+ NAVIGATION STYLE
+------------------*/
+.navigation{
+  background-color: rgb(252, 248, 213);
+  width: 300px;
+  height:100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.navigation a {
+  text-decoration: none;
+  color: rgb(107, 180, 178);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Logo and title */
+.site-info{
+margin: 2em;
+
+text-align: center;
+font-size: 145%;
+}
+
+.logo{
+  height: 10;
+  width: 10;
+  margin: -1em auto 0em -.8em;
+  text-align: center;
+  border: 5px solid rgb(252, 248, 213);
+  border-radius: 100%;
+}
+
+.logo:hover{
+  border: 5px solid rgb(153, 224, 222);
+
+
+
+}
+
+/* Site links */
+.site-links{
+margin: 0 1em;
+}
+.site-links a {
+  display: block;
+  margin: 1em;
+}
+
+.site-links a:hover {
+  margin-left: 1.5em;
+}
+/* Links to social accounts */
+
+
+/*----------------
+ MAIN CONTENT STYLE
+------------------*/
+.main{
+overflow: auto;
+margin-left: 300px;
+padding: 1em;
+}
+.share{
+  right: 500px;
+  top: 5px;
+}
+.banner{
+  width: 100%;
+  height: auto;
+}
+.bobby {
+  width: 100%;
+  height: auto;
+}
+.Gretel {
+  width: 100%;
+  height: auto;
+}
+.Brite Boy {
+  width: 100%;
+  height: auto;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+}
+h2{
+  font-family: 'Raleway', sans-serif;
+}
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+}
