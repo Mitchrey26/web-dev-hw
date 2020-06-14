@@ -79,6 +79,16 @@ overflow: auto;
 margin-left: 300px;
 padding: 1em;
 }
+.main-heading{
+  position: absolute;
+  top: 0px;
+  right: 1em;
+}
+.main-sub{
+  position: absolute;
+  top: 60px;
+  right: 1em;
+}
 .banner{
   width: 100%;
   height: auto;
@@ -98,6 +108,7 @@ padding: 1em;
 
 h1{
   font-family: 'Raleway', sans-serif;
+
 }
 h2{
   font-family: 'Raleway', sans-serif;
