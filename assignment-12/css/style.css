@@ -1,0 +1,85 @@
+/*----------------
+ CSS for general Style
+------------------*/
+/* Site-Wide Elements */
+body {
+  border: 3px solid;
+  background-color: rgb(103, 195, 140, .5);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+}
+
+h1, span {
+  font-family:, cursive;
+  color: white;
+  text-align: center;
+}
+h1{
+  font-family:, cursive;
+}
+
+q {
+  font-family: font-family: 'Sigmar One', cursive;
+  font-size: 2em;
+}
+a {
+  font-family: font-family: 'Sigmar One', cursive;
+  text-decoration: none;
+  color: inherit;
+}
+* {
+  font-family: font-family: 'Sigmar One', cursive;
+  color: #000;
+}
+
+/* Layout AREAs */
+
+.main-container {
+  width: 60%;
+  max-width: 700px;
+  margin: 3em auto;
+  padding: 3em;
+
+  overflow: auto;
+  background-color: rgb(56, 95, 187);
+  border-right: 15px solid #999;
+  border-bottom: 15px solid #666;
+}
+
+.banner{
+  width: 100%;
+  height: auto;
+}
+#site-title {
+
+  position: relative;
+  font-family: cursive;
+  top: -395px;
+  left: 30px;
+  color: black;
+  font-size: 1.55em;
+}
+#site-slogan {
+    position: relative;
+    text-align: center;
+    top: -400px;
+    left: 10px;
+    font-family: cursive;
+    font-size: 1.30em;
+    color: black;
+}
+header{
+
+}
+main {
+  text-align: justify;
+  margin: 3em 0;
+
+}
+p {
+font-family: 'Raleway', sans-serif;
+  color:rgb(255, 255, 255);
+}
+.about {
+    font-family: 'Raleway', sans-serif;
+}

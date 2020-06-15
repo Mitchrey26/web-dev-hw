@@ -1,0 +1,77 @@
+/*----------------------
+ CSS for Navigation menu
+ --------------------- */
+
+ /* MENU BAR (CONTAINER): */
+ menu{
+   margin: 0;
+   padding: 0;
+
+   background-color: rgb(91, 71, 81);
+   font-family: cursive;
+   font-size: 1.15em;
+ }
+
+/* TOP-LEVEL LINKS */
+ #site-links{
+   margin:0;
+   padding: 0;
+   display: inline-block;
+
+ }
+ #site-links .menu-item {
+   width: 4em;
+   padding: 10px;
+   display: inline-block;
+
+   background-color: rgb(91, 71, 81);
+
+   text-align: center;
+   color: white;
+ }
+ #site-links .menu-item:hover {
+   color: rgb(24, 17, 150);
+   background-color: rgb(144, 198, 204);
+   text-decoration: underline overline;
+   text-decoration-color: rgb(24, 17, 150);
+   text-decoration-style: wavy;
+   padding: .5em 1em;
+ }
+
+ /* DROPDOWN: */
+ #site-links .dropdown{
+   display: inline-block;
+   width: 6em;
+ }
+ #site-links .dropdown-content{
+   position: absolute;
+   display: none;
+
+   background-color: rgb(91, 71, 81);
+   z-index: 5;
+ }
+ #site-links .dropdown-content a {
+   color: white;
+   font-family: 'Oxygen', sans-serif;
+ }
+ #site-links .dropdown-content a:hover{
+   color: rgb(91, 71, 81);
+   font-weight: 900;
+ }
+ #site-links .dropdown:hover .dropdown-content {
+  display: block;
+ }
+ #site-links .dropdown-item {
+   min-width: 6em;
+   padding: .5em 1em;
+   display: block;
+
+   text-align: center;
+ }
+.dropdown-item:hover {
+  background-color: lightblue;
+}
+ /* SOCIAL MEDIA ACCOUNTS: */
+ #social-links{
+
+ }
