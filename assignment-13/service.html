@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head><meta charset="UTF-8">
+  <meta name="description" content="This is my Final Project for Intro to Web Design">
+  <meta name="author" content="Mitch Reynolds">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Raleway&display=swap" rel="stylesheet">
+    <title>My Final Project</title>
+    </head>
+<body>
+  <div class="main-container">
+    <header>
+            <!-- Site Links for menu -->
+     <menu id="navigation">
+       <div id="site-links">
+              <a href="./index.html" class="menu-item">Home </a>
+              <a href="./service.html" class="menu-item">Store</a>
+              <a href="./about.html" class="menu-item">About</a>
+              <a href="./contact.html" class="menu-item">Contact</a>
+          <div class="dropdown">
+              <a href="#" class="menu-item" id="dropdown-group">More..</a>
+            <div class="dropdown-content">
+              <a href="https://pitchfork.com/artists/29923-diiv/" class="dropdown-item">PITCHFORK</a>
+              <a href="https://www.youtube.com/watch?v=gFapK6dESXA" class="dropdown-item">CONCERT</a>
+              <a href="https://www.youtube.com/watch?v=Fc9S0LiGkHM" class="dropdown-item">ALEX G - ICEHEAD COVER</a>
+            </div>
+          </div>
+        </div>
+              <h1 class="band-name band-name-large">DIIV</h1>
+     </menu>
+   </header>
+ </div>
+
+<div class="main-about">
+                <h2 class="about-header">Music</h2>
+ <div class="shop-items">
+        <div class="shop-item">
+                <span class="shop-item-title">
+                 Deciever</span>
+                 <img class="shop-item-image" src="./images/deciever.png" title="Deciever Album Cover" />
+            <div class="shop-item-details">
+                <span class="shop-item-price">$19.99</span>
+                <button class="btn-primary tour-btn shop-item-btn" type="button">ADD TO CART</button>
+            </div>
+          </div>
+
+         <div class="shop-item">
+                <span class="shop-item-title">Is The Is Are</span>
+                <img class="shop-item-image" src="./images/is-the-is-are.jpg" title="Is The Is Are album cover">
+
+            <div class="shop-item-details">
+                <span class="shop-item-price"> $16.99</span>
+                <button class="btn-primary tour-btn shop-item-btn" type="button">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="shop-item">
+                <span class="shop-item-title">Oshin</span>
+                <img class="shop-item-image" src="./images/Oshin.jpg" title="Oshin album cover">
+
+              <div class="shop-item-details">
+                 <span class="shop-item-price">$12.99</span>
+                 <button class="btn-primary tour-btn shop-item-btn" type="button">ADD TO CART</button>
+             </div>
+          </div>
+  </div>
+
+                <h2 class="about-header">Merch</h2>
+  <div class="shop-items">
+      <div class="shop-item">
+                  <span class="shop-item-title">Deciever T-Shirt</span>
+                  <img class="shop-item-image" src="./images/diiv-deceiver-shirt.png">
+
+         <div class="shop-item-details">
+                  <span class="shop-item-price">$14.99</span>
+                  <button class="btn-primary tour-btn shop-item-btn" type="button">ADD TO CART</button>
+         </div>
+      </div>
+
+   <div class="shop-item">
+                    <span class="shop-item-title">DIIV Red T-Shirt</span>
+                    <img class="shop-item-image" src="./images/diiv-red-shirt.jpeg">
+
+        <div class="shop-item-details">
+                    <span class="shop-item-price">$14.99</span>
+                    <button class="btn-primary tour-btn shop-item-btn" type="button">ADD TO CART</button>
+        </div>
+  </div>
+
+   <div class="shop-item">
+                    <span class="shop-item-title">DIIV T-Shirt</span>
+                    <img class="shop-item-image" src="./images/black-shirt.png">
+
+        <div class="shop-item-details">
+                    <span class="shop-item-price">$14.99</span>
+                    <button class="btn-primary tour-btn shop-item-btn" type="button">ADD TO CART</button>
+        </div>
+   </div>
+</div>
+
+
+         <div class="container content-section">
+           <h2 class="about-header">Cart</h2>
+          </div>
+     <div class="cart-row">
+           <span class="cart-item cart-header cart-column">ITEM</span>
+           <span class="cart-price cart-header cart-column">PRICE</span>
+           <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+  <div class="cart-row">
+      <div class="cart-item cart-column">
+           <img class="cart-item-image" src="./images/deciever.png" title="Deciever Album Cover" width="100">
+           <span class="cart-item-title">Deceiver Album</span>
+      </div>
+           <span class="cart-price cart-column">19.99</span>
+      <div class="cart-column">
+           <input class="cart-quantity-input" type="number" value="1" minvalue="0" maxvalue="5">
+           <button class=" btn-danger cart-quantity-button" role="button">Remove</button>
+      </div>
+  </div>
+    <div class="cart-row">
+        <div class="cart-item cart-column">
+           <img class="cart-item-image" src="./images/diiv-red-shirt.jpeg" title="Deciever Album Cover" width="100">
+           <span class="cart-item-title">T-Shirt</span>
+        </div>
+           <span class="cart-price cart-column">14.99</span>
+      <div class="cart-column">
+            <input class="cart-quantity-input" type="number" value="1" minvalue="0" maxvalue="5">
+            <button class=" btn-danger cart-quantity-button" role="button">Remove</button>
+        </div>
+    </div>
+
+    <div class="cart-total">
+        <h3 class="cart-total-title">Total</h3>
+        <span class="cart-total-price">$39.98</span>
+    </div>
+
+   <button class="btn-primary btn-purchase" type="button">Purchase</button>
+</div>
+    <div class="footer">
+       <div class="container main-footer-container">
+           <h3 class="band-name">DIIV</h3>
+          <div id="social-links">
+                  <ul id="navigation" class="footer-nav">
+                <li>
+                  <a href="https://facebook.com" target="_blank">
+                    <img src="./images/facebook.png" class="facebook">
+                  </a></li>
+                <li>
+                  <a href="https://instagram.com" target="_blank">
+                    <img src="./images/instagram.png" class="instagram">
+                </a></li>
+                <li>
+                  <a href="https://twitter.com" target="_blank">
+                    <img src="./images/twitter.png" class="twitter">
+                </a></li>
+                </ul>
+          </div>
+       </div>
+    </div>
+
+
+    </body>
+</html>

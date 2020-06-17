@@ -1,0 +1,374 @@
+/*----------------
+ PAGE WIDE STYLE
+------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(179, 90, 74);
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+}
+
+/*----------------
+ NAVIGATION STYLE
+------------------*/
+menu{
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 1.15em;
+}
+.main-container {
+  background-image: url("../images/background-header.jpg");
+  background-size: cover;
+  padding-bottom: 0px;
+}
+
+/* TOP-LEVEL LINKS */
+#site-links{
+  margin:0;
+  padding: 0;
+  display: inline-block;
+
+}
+#site-links .menu-item {
+  width: 4em;
+  padding: 10px;
+  display: inline-block;
+
+  text-align: center;
+  text-decoration: none;
+  color: #999;
+}
+#site-links .menu-item:hover {
+  background-color: rgba(255, 255, 255, .3);
+
+}
+
+/* DROPDOWN: */
+#site-links .dropdown{
+  display: inline-block;
+  width: 6em;
+}
+#site-links .dropdown-content{
+  position: absolute;
+  display: none;
+
+  background-color: rgba(255, 255, 255, .3);
+  z-index: 5;
+}
+#site-links .dropdown-content a {
+  color: #222;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+#site-links .dropdown-content a:hover{
+  color: rgba(255, 255, 255, .7);
+  font-weight: 400;
+}
+#site-links .dropdown:hover .dropdown-content {
+ display: block;
+}
+#site-links .dropdown-item {
+  min-width: 6em;
+  padding: .5em 1em;
+  display: block;
+
+  text-align: center;
+}
+.dropdown-item:hover {
+ background-color: rgba(255, 255, 255, .3);
+}
+
+/*Band Name Title */
+.band-name {
+  position: relative;
+  margin: 0;
+  font-family: 'Kirang Haerang', cursive;
+  font-size: 120pt;
+  text-align: center;
+  color: rgba(244, 0, 0, 0.54);
+}
+
+/*----------------
+ MAIN IN Service.html STYLE
+------------------*/
+.shop-item {
+  margin: 30px;
+}
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+
+  font-size: 1.5em;
+  font-weight: bold;
+  font-size: #333;
+  margin-bottom: 15px;
+}
+
+.shop-item-image{
+  height: 200px;
+}
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.shop-item-price {
+  flex-grow: 1;
+  color: #333;
+}
+.shop-items {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.cart-header {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #333;
+}
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.cart-row {
+  display: flex;
+
+}
+.cart-item {
+  width: 45%;
+}
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
+}
+.cart-quantity{
+  width: 35%;
+}
+.cart-item-title{
+  color: #333;
+  margin-left: 1em;
+  font-size: 1.2em;
+}
+.cart-item-image {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}
+.btn-danger{
+  color:white;
+  background-color: rgb(119, 14, 14, .5);
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+.btn-danger:hover{
+  color: rgb(59, 31, 39);
+}
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background-color: #eee;
+  color: black;
+  padding: 0;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+.cart-total {
+  text-align: end;
+  margin-top: 10px
+}
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 100px;
+}
+.cart-total-price {
+ font-size: 1.1em;
+  color: black;
+  margin-right: 100px;
+}
+.btn-purchase {
+  display: block;
+  margin:40px auto 20px auto;
+  font-size: 2.5em;
+}
+
+
+/*----------------
+ MAIN IN CONTACT.html STYLE
+------------------*/
+.email {
+  padding: .5em;
+  margin:1em 1em 1em 0em;
+align-items: center;
+}
+.subscribe {
+  text-align: center;
+}
+.manager {
+  margin: .5em;
+}
+.manager:hover {
+  color: #999;
+}
+
+
+/*----------------
+ MAIN IN INDEX.html STYLE
+------------------*/
+.tour-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+.tour-item {
+  display: inline-block;
+  padding-right: .5em;
+}
+.tour-date {
+  color:#222;
+  font-weight: bold;
+  width: 12%;
+}
+.tour-city {
+  width: 25%;
+}
+.tour-arena {
+  width: 40%;
+}
+.tour-btn {
+  max-width: 40%;
+  margin-right: 1em;
+}
+.btn-primary {
+  color: #555;
+  background-color: #d2d2d2;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+.btn-primary:hover{
+  background-color: #222;
+}
+/*----------------
+ MAIN IN ABOUTCONTENT STYLE
+------------------*/
+.main-about {
+
+}
+.about-image {
+  width: 100%;
+  height: auto;
+}
+.main-about{
+  margin: 1em;
+}
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+  padding:0 1.5em;
+}
+.about-header {
+  font-family: 'Kirang Haerang', cursive;
+  font-size: 4em;
+  color: #222;
+  text-align: center;
+
+}
+.oshin {
+  font-family: 'Kirang Haerang', cursive;
+  font-size: 2em;
+  color: #222;
+  text-align: left;
+  margin-left: 4em;
+}
+.is-the{
+  font-family: 'Kirang Haerang', cursive;
+  font-size: 2em;
+  color: #222;
+  text-align: right;
+  margin-right: 4em;
+}
+
+.deci{
+  font-family: 'Kirang Haerang', cursive;
+  font-size: 2em;
+  color: #222;
+  text-align: left;
+
+}
+
+
+.floated {
+  position: relative;
+  width: 75%;
+  float: right;
+  padding-left: 2em;
+}
+.floating {
+  position: relative;
+  width: 75%;
+  float: left;
+  padding-right: 2em;
+
+}
+/*----------------
+ FOOTER ELEMENTS
+------------------*/
+.footer {
+background: #333;
+color: #777;
+padding: 0;
+margin: 0;
+width:100%;
+}
+#social-links a:hover {
+ background-color: rgba(255, 255, 255, .8);
+ height: 50;
+ width: 50;
+}
+.main-footer-container{
+  display: flex;
+  align-items: center;
+  margin-left: 5em;
+  width: 100%;
+}
+.main-footer-container ul {
+  flex-grow: 1;
+  text align: center;
+  display: inline-flex;
+}
+
+.footer-nav li{
+  padding: 0 .5em;
+}
+.facebook {
+  width: 50px;
+  height: 50px;
+}
+
+.instagram {
+  width: 50px;
+  height: 50px;
+}
+.twitter {
+  width: 50px;
+  height: 50px;
+}
